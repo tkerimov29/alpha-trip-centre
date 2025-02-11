@@ -19,11 +19,18 @@
 <body class="montserrat-hero">
     <header>
         <p>Alpha Trip Centre</p>
-        <ul>
+        <div id="navbar">
+          <ul>
             <li>Vacations</li>
             <li>Cruises</li>
             <li>Cars</li>
-        </ul>
+          </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
     </header>
 
     <section class="hero-banner">
@@ -34,22 +41,26 @@
             <h1>It's a Big World Out There, Go explore</h1>
             <p>Embrace life's vastness, venture forth, and discover the wonders waiting beyond. The world beckons; seize its grand offerings now!</p>
             <div id="trip-planning-form">
-              <i class="fa fa-map-marker"></i>
               <div id="location">
-                <label for="location">Location</label>
-                <select name="location" id="">
-                    <option value="france">Paris, France</option>
-                    <option value="america">New York, America</option>
-                    <option value="england">London, England</option>
-                    <option value="hawaii">Hawaii</option>
-                    <option value="rome">Rome</option>
-                </select>
+                <i class="fa fa-map-marker"></i>
+                <div>
+                  <label for="location">Location</label>
+                  <select name="location" id="">
+                      <option value="france">Paris, France</option>
+                      <option value="america">New York, America</option>
+                      <option value="england">London, England</option>
+                      <option value="hawaii">Hawaii</option>
+                      <option value="rome">Rome</option>
+                  </select>
+                </div>
               </div>
               <div id="vertical-line"></div>
-              <i class="fa fa-calendar"></i>
               <div id="date">
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
+                <i class="fa fa-calendar"></i>
+                <div>
+                  <label for="date">Date</label>
+                  <input type="date" id="date" name="date">
+                </div>
               </div>
               <button id="search-button"><i class="fa fa-search"></i></button>
             </div>
@@ -59,6 +70,7 @@
             <img src="images/happy-countries-make-for-happy-tourists-32634-2-removebg-preview 1.png" alt="">
         </div>
     </section>
+    
     <section class="our-values">
         <div>
             <h4>OUR VALUES</h4>
@@ -198,7 +210,9 @@
     <footer>
       <div>
         <h2>Get In Touch</h2>
-        <a href="https://www.facebook.com/AlphaTravelCanada/"><i class="fa fa-facebook-f"></i></a>
+        <p><a href="+1(416) 890-3173">+1(416) 890-3173</a></p>
+        <p><a href="alphatripcentre@gmail.com">alphatripcentre@gmail.com</a></p>
+        <p><a href="https://www.facebook.com/AlphaTravelCanada/"><i class="fa fa-facebook-f"></i></a></p>
       </div>
       <div>
         <h2>Company info</h2>
