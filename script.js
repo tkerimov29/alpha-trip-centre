@@ -1,3 +1,13 @@
+// Get hamburger and navbar elements
+const hamburger = document.getElementById('hamburger');
+const navbar = document.getElementById('navbar');
+
+// Add event listener to toggle the navbar
+hamburger.addEventListener('click', () => {
+  navbar.classList.toggle('active');
+});
+
+
 new Swiper('.card-wrapper', {
     loop: true,
     spaceBetween: 30,
