@@ -7,6 +7,12 @@ hamburger.addEventListener('click', () => {
   navbar.classList.toggle('active');
 });
 
+// Remove active class when resizing above 768px
+window.addEventListener("resize", function () {
+    if (window.innerWidth > 768 && navbar.classList.contains("active")) {
+      navbar.classList.remove("active");
+    }
+});
 
 new Swiper('.card-wrapper', {
     loop: true,
