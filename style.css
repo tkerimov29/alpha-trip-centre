@@ -797,6 +797,23 @@ footer ul li {
     font-size: 1.3em;
     margin-left: 10px;
   }
+
+  .testimonials h2, .testimonials p {
+    text-align: center;
+    width: 80%;
+  }
+
+  .testimonials h2 {
+    font-size: 1.3em;
+  }
+
+  .testimonials p {
+    font-size: 0.8em;
+  }
+
+  .testimonial-card blockquote {
+    font-size: 0.7em;
+  }
 }
 
 @media (max-width: 428px) {
@@ -945,7 +962,7 @@ footer ul li {
 
   .testimonials h2, .testimonials p {
     text-align: center;
-    width: 80%;
+    width: 60%;
   }
 
   .testimonials h2 {
@@ -954,5 +971,9 @@ footer ul li {
 
   .testimonials p {
     font-size: 0.8em;
+  }
+
+  .testimonial-card blockquote {
+    font-size: 0.6em;
   }
 }
